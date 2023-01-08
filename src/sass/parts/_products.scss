@@ -1,0 +1,12 @@
+.products{
+    display: flex;
+    flex-wrap: wrap; 
+    box-sizing: border-box;   
+    // .products__item
+    &__item{ 
+        flex-grow: 1; 
+        max-width: 25%;     
+        padding: 22px 15px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    align-items: flex-end;
+    font-size: 24px;
+    // .logo__img
+    &__img {
+        width: 1.4em;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    // .logo__text
+    &__text {
+        font-family: $rb-md;
+        font-weight: 500;
+        line-height: 28px;
+        color: $grey-color;
+    }
+}

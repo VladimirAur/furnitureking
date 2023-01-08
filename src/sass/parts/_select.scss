@@ -1,0 +1,73 @@
+.select {
+    position: relative;
+    // .select__title
+    &__title {
+        display: flex;
+        align-items: center;
+        min-width: 80px;
+        font-family: $rb-rg;
+        font-size: 14px;
+        padding: 0.5em 0.5em 0.5em 1em;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        z-index: 0;
+        cursor: pointer;
+        &:hover {
+            text-shadow: -1px 1px 2px #8f928f;
+        }
+        // .select__title_active
+        &_active {
+            border-color: #c2bebe;
+        }
+        // .select__title_green-theme
+        &_green-theme {
+            min-width: auto;
+            font-size: 16px;
+            color: #ffffff;
+        }
+    }
+
+    // .select__list
+    &__list {
+        display: none;
+        position: absolute;
+        top: 35px;
+        font-family: $rb-rg;
+        background-color: #eff3ef;
+        border: 1px solid #c2bebe;
+        border-radius: 4px;
+        z-index: 6;
+        // .select__list_active
+        &_active {
+            display: block;
+        }
+        // .select__list_green-theme
+        &_green-theme {
+            top: 38px;
+            background-color: $main-color;
+        }
+    }
+
+    // .select__option
+    &__option {
+        font-family: $rb-rg;
+        font-size: 14px;
+        padding: 0.5em 1.5em 0.5em 1em;
+        border-bottom: 1px solid #c2bebe;
+        cursor: pointer;
+        &:last-child {
+            border: none;
+        }
+        &:hover {
+            background-color: #dfe2df;
+        }
+        // .select__option_green-theme
+        &_green-theme {
+            font-size: 16px;
+            color: #ffffff;
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+}

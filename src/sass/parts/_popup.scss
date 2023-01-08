@@ -1,0 +1,37 @@
+.popup {   
+    box-shadow: 1px 1px 3px #7c7b7b;
+    // .popup__item
+    &__item {
+        font-size: 14px;
+        margin-right: 1em;
+    }
+
+    // .popup__menu
+    &__menu {
+        column-count: 3; 
+        column-gap: 2em;               
+        height: 100%;
+    }
+
+    // .popup__menu-title
+    &__menu-title {
+        // display: inline-block;
+        margin-bottom: 0;        
+        font-family: $rb-md;
+		font-size: 1.1em;
+		line-height: 2em;
+		color: $grey-color;
+    }
+
+    // .popup__menu-link
+    &__menu-link {
+        // display: inline-block;			
+        font-family: $rb-rg;
+		font-size: 1.1em;
+		line-height: 2em;
+		color: $grey-color;        
+        &:hover{
+            color: $hover-color;
+        }   
+    }
+}

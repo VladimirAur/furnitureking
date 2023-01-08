@@ -1,0 +1,21 @@
+.special {
+
+    // .special__title
+    &__title {
+        
+    }
+
+    // .special__content
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+    }
+
+    // .special__item
+    &__item {
+        flex: 1 0 46%;
+        margin: 0 15px;
+    }
+}

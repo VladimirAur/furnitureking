@@ -1,0 +1,101 @@
+.menu {
+    font-size: 16px;
+    max-width: 900px;
+
+    // .menu__close
+    &__close {
+        display: none;
+        justify-content: end;
+        margin: 0;
+        width: 100%;
+        background-color: $main-color;
+        animation: grow_button 1s;
+        span {
+            display: block;
+            font-size: 45px;
+            color: #ffffff;
+        }
+        &:hover {
+            background-color: $hover-color;
+            cursor: pointer;
+        }
+    }
+
+    // .menu__list
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .menu__item
+    &__item {
+        padding: 1em 0;
+        font-size: 16px;
+        font-family: $rb-rg;
+        text-transform: uppercase;
+    }
+
+    // .menu__icon
+    &__icon {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    // .menu__link
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $grey-color;
+        &:active {
+            color: $hover-color;
+            background-color: transparent;
+        }
+        &:hover {
+            color: $hover-color;
+        }
+    // .menu__link-catalog
+        &-catalog{            
+            padding: 1em 3em 1em 1em;
+            font-family: $rb-md;
+			background-color: $main-color;
+            color: #ffffff;
+            &:hover{
+                color: #ffffff;
+                background-color: $hover-color; 
+            }
+        }
+		   
+    }
+}
+
+@keyframes grow_button {
+    0% {
+        margin: -40px;
+    }
+
+    100% {
+        margin: 0;
+    }
+}
+
+@keyframes grow_text {
+    0% {
+        font-size: 5px;
+    }
+
+    100% {
+        font-size: 16px;
+    }
+}
+
+@keyframes menu_dropdown {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}

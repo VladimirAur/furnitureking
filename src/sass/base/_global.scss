@@ -1,0 +1,57 @@
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2{
+    text-align: center;
+    margin: 3em 0 1.2em 0;
+    font-family: $ms-bd;
+    font-size: 36px;
+    color: $grey-color;
+    text-transform: uppercase;
+}
+
+.button{        
+    padding: 0.6em 1.1em;
+    font-family: $ms-bd;    
+    border-radius: 5px;
+    background-color: $main-color;
+    color: #ffffff;    
+    &:hover {
+        background-color: $hover-color;
+        cursor: pointer;
+    }
+    &_light{
+        display: flex;
+        align-items: center;
+        font-family: $ms-sb;
+        border-radius: 2px;
+        span{
+            margin-left: 5px;
+        }
+    }
+}
+.hidden {
+    overflow: hidden;
+}
+
+.invisible{
+    display: none;
+}
+::-webkit-scrollbar {    
+    height: 5px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #cccacb; 
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #838383;    
+}

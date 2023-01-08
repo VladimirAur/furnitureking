@@ -1,0 +1,24 @@
+.social {
+    display: flex;
+    align-items: center;
+    // .social__item
+
+    &__item {
+        margin-right: 25px;
+        &:last-child{
+            margin-right: 0; 
+        }
+    }
+
+    // .social__link
+
+    &__link {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        color: $grey-color;
+        &:hover{
+            color: $hover-color;
+        }
+    }
+}

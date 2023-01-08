@@ -4,12 +4,823 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/fonts.css" />
         <title>Document</title>
     </head>
     <body>
-        <h1>Hello 33 World</h1>
+        <!-- Header -->
+        <header class="header">
+            <!-- Header - Top -->
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-content row">
+                        <div class="header__text">Welcome to<span> our online shop</span></div>
+                        <div class="header__buttons">
+                            <button class="header__lang-button select" type="button">
+                                <div class="select__title select__title_green-theme">
+                                    <div class="select__text">En</div>
+                                    <span class="select__icon icon-chevron-down"></span>
+                                </div>
+                                <ul class="select__list select__list_green-theme">
+                                    <li class="select__option select__option_green-theme">En</li>
+                                    <li class="select__option select__option_green-theme">Ua</li>
+                                </ul>
+                            </button>
+                            <button class="header__auth-button" type="button">Login or Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header - Main -->
+            <div class="header__main">
+                <div class="container">
+                    <div class="header__main-content row">
+                        <div class="header__logo logo">
+                            <img class="logo__img" src="img/logo.svg" alt="logo" />
+                            <div class="logo__text">Furniking</div>
+                        </div>
+                        <form class="header__search">
+                            <input class="header__search-input" type="search" placeholder="Search here" />
+                            <div class="header__search-esc">+</div>
+                            <div class="header__search-select select">
+                                <div class="select__title">
+                                    <div class="select__text">Categories</div>
+                                    <span class="select__icon icon-chevron-down"></span>
+                                </div>
+                                <ul class="select__list">
+                                    <li class="select__option">Categories</li>
+                                    <li class="select__option">Amrature</li>
+                                    <li class="select__option">Chair</li>
+                                    <li class="select__option">Furniture</li>
+                                </ul>
+                            </div>
+                            <button class="header__search-btn"><span class="icon-search"></span></button>
+                        </form>
+                        <div class="header__links">
+                            <a href="#" class="header__link header__link-search">
+                                <span class="header__img icon-search" />
+                            </a>
+                            <a href="#" class="header__link">
+                                <span class="header__img icon-cart"/>
+                            </a>
+                            <a href="#" class="header__link">
+                                <span class="header__img icon-bell" />
+                            </a>
+                            <a href="#" class="header__link">
+                                <span class="header__img icon-avatar" />
+                            </a>
+                            <a href="#" class="header__link header__link-menu">
+                                <span class="header__img icon-menu"  />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header - Menu -->
+            <div class="header__menu">
+                <div class="container">
+                    <div class="header__menu-content">
+                        <nav class="menu">
+                            <button class="menu__close" type="button">
+                                <span class="icon-close"></span>
+                            </button>
+                            <ul class="menu__list">
+                                <li class="menu__item ">
+                                    <a href="#" class="menu__link menu__link-catalog">
+                                        <span class="menu__icon icon-menu"></span>All collections
+                                    </a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+      
+
+        <main>
+            <!-- Collections -->
+            <div class="collections">
+            	<div class="container">
+            		<div class="collections__content">
+            			<div class="collections__cat category">
+            				<ul class="category__list">
+            					<li class="category__item"><a href="#" class="category__link">All<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item">
+            						<a href="#" class="category__link">New Arrivals<span class="icon-chevron-right"></span></a> 
+            					</li>
+            					<li class="category__item"><a href="#" class="category__link">Hot Sale<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Furniture<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Amrature<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Tabble<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Chair<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Sofa<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Mirrors<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Stools<span class="icon-chevron-right"></span></a> </li>
+            					<li class="category__item"><a href="#" class="category__link">Benches<span class="icon-chevron-right"></span></a> </li>
+            				</ul>
+            			</div>
+            			<div class="collections__slider">
+            				<div class="collections__slides">
+            					<!-- .collections__item -->
+            					<div class="collections__item">
+            						<div class="collections__info">
+            							<p class="collections__title">TOP COLLECTIONS 2022</p>
+            							<p class="collections__slogan">We Serve Your Dream <span>Furniture</span></p>
+            							<p class="collections__caption">Get 50% off all products</p>
+            							<a href="#" class="collections__link button">SHOP NOW</a>
+            						</div>
+            						<div class="collections__photos">
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair11.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price invisible">$150</div>
+            								<div class="collections__photo-title invisible">comfortable chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair12.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$120</div>
+            								<div class="collections__photo-title">Office desk Chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair13.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$180</div>
+            								<div class="collections__photo-title">Home Alice Sofa</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair14.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$200</div>
+            								<div class="collections__photo-title">Modern Chair</div>
+            							</div>
+            						</div>
+            					</div>
+            					<!-- ///.collections__item -->
+
+            					<!-- .collections__item -->
+            					<div class="collections__item">
+            						<div class="collections__info">
+            							<p class="collections__title">Best Sellers 2022</p>
+            							<p class="collections__slogan">
+            								Living Room <span>Furniture</span> collection for you
+            							</p>
+            							<p class="collections__caption">Get 50% off all products</p>
+            							<a href="#" class="collections__link button">SHOP NOW</a>
+            						</div>
+            						<div class="collections__photos">
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair21.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price invisible">$150</div>
+            								<div class="collections__photo-title invisible">comfortable chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair22.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$120</div>
+            								<div class="collections__photo-title">Office desk Chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair23.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$180</div>
+            								<div class="collections__photo-title">Home Alice Sofa</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair24.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$200</div>
+            								<div class="collections__photo-title">Modern Chair</div>
+            							</div>
+            						</div>
+            					</div>
+            					<!-- ///.collections__item -->
+            					<!-- .collections__item -->
+            					<div class="collections__item">
+            						<div class="collections__info">
+            							<p class="collections__title">Todays Deals</p>
+            							<p class="collections__slogan">
+            								Best Summer <span>Chairs</span> in this Country
+            							</p>
+            							<p class="collections__caption">Get 50% off all products</p>
+            							<a href="#" class="collections__link button">SHOP NOW</a>
+            						</div>
+            						<div class="collections__photos">
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair31.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price invisible">$150</div>
+            								<div class="collections__photo-title invisible">comfortable chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair32.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$120</div>
+            								<div class="collections__photo-title">Office desk Chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair33.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$180</div>
+            								<div class="collections__photo-title">Home Alice Sofa</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair34.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$200</div>
+            								<div class="collections__photo-title">Modern Chair</div>
+            							</div>
+            						</div>
+            					</div>
+            					<!-- ///.collections__item -->
+
+            					<!-- .collections__item -->
+            					<div class="collections__item">
+            						<div class="collections__info">
+            							<p class="collections__title">SPECIAL OFFER</p>
+            							<p class="collections__slogan">Buy best comfortable minimal chair</p>
+            							<p class="collections__caption">Get 50% off all products</p>
+            							<a href="#" class="collections__link button">SHOP NOW</a>
+            						</div>
+            						<div class="collections__photos">
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair41.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price invisible">$150</div>
+            								<div class="collections__photo-title invisible">comfortable chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair42.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$120</div>
+            								<div class="collections__photo-title">Office desk Chair</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair43.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$180</div>
+            								<div class="collections__photo-title">Home Alice Sofa</div>
+            							</div>
+            							<div class="collections__photo">
+            								<img src="img/chairs/chair44.png" alt="chair" class="collections__img" />
+            								<div class="collections__photo-price">$200</div>
+            								<div class="collections__photo-title">Modern Chair</div>
+            							</div>
+            						</div>
+            					</div>
+            					<!-- ///.collections__item -->
+            				</div>
+            			</div>
+            			<div class="collections__popup popup">	
+            				<div class="popup__item">
+            					<ul class="popup__menu">
+                                    <li class="popup__menu-title">Furniture</li>
+                                    <li href="#" class="popup__menu-link">Bentwood furniture</li>
+                                    <li href="#" class="popup__menu-link">Bobbin furniture</li>
+                                    <li href="#" class="popup__menu-link">Campaign furniture</li>
+                                    <li href="#" class="popup__menu-link">Cane furniture</li>
+            						<li href="#" class="popup__menu-link">Chippendale</li>
+                                    <li href="#" class="popup__menu-link">Corner furniture</li>
+                                    <li href="#" class="popup__menu-link">Cottage furniture</li>
+                                    <li href="#" class="popup__menu-link">Country furniture</li>
+            						<li href="#" class="popup__menu-link">Shaker furniture</li>
+            						<li class="popup__menu-title">Tables</li>
+                                    <li href="#" class="popup__menu-link">Lowboy</li>
+                                    <li href="#" class="popup__menu-link">Parsons table</li>
+                                    <li href="#" class="popup__menu-link">Basket table</li>
+            						<li href="#" class="popup__menu-link">Gateleg table</li>
+                                    <li href="#" class="popup__menu-link">Contact us</li>
+                                    <li href="#" class="popup__menu-link">Dressing table</li>
+                                    <li href="#" class="popup__menu-link">Drum table</li>
+            						<li class="popup__menu-title">Chests</li>
+                                    <li href="#" class="popup__menu-link">Armoire</li>
+                                    <li href="#" class="popup__menu-link">Bureau</li>
+                                    <li href="#" class="popup__menu-link">Chest of drawers</li>
+            						<li href="#" class="popup__menu-link">Coffer</li>
+                                    <li class="popup__menu-title">Chairs</li>
+                                    <li href="#" class="popup__menu-link">Settle</li>
+                                    <li href="#" class="popup__menu-link">Stool</li>
+            						<li href="#" class="popup__menu-link">Wainscot chair</li>
+                                    <li href="#" class="popup__menu-link">Taboret</li>
+                                    <li href="#" class="popup__menu-link">Windsor chair</li>
+                                    <li href="#" class="popup__menu-link">Faldstool</li>
+            						<li href="#" class="popup__menu-link">Confidante</li>
+                                    <li href="#" class="popup__menu-link">Basket chair</li>
+                                    <li href="#" class="popup__menu-link">Cathedra</li>
+                                    <li href="#" class="popup__menu-link">Love seat</li>
+
+                                </ul>
+            				</div>
+				
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+            <!-- Features -->
+            <div class="features">
+                <div class="container">
+                    <div class="features__content">
+                        <ul class="features__list">
+                            <li class="features__item">
+                                <img class="features__img" src="img/features/shipping.svg" alt="shipping">
+                                <div class="features__info">
+                                    <p class="features__title">Free Shipping</p>
+                                    <p class="features__capture">Orders over $100</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img class="features__img" src="img/features/present.svg" alt="gift">
+                                <div class="features__info">
+                                    <p class="features__title">Smart Gift Card</p>
+                                    <p class="features__capture">Buy $1000 to get card</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img class="features__img" src="img/features/wallet.svg" alt="payment">
+                                <div class="features__info">
+                                    <p class="features__title">Quick Payment</p>
+                                    <p class="features__capture">100% secure payment</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img class="features__img" src="img/features/support.svg" alt="support">
+                                <div class="features__info">
+                                    <p class="features__title">24/7 Support</p>
+                                    <p class="features__capture">Quick support</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Offer -->
+            <div class="offer">
+            	<div class="container">
+            		<div class="offer__content">
+            			<a href="#" class="offer__item">
+            				<div class="offer__photo">
+            					<img src="img/offer/offer1.jpg" alt="offer" class="offer__img" />
+            				</div>
+            				<div class="offer__info">
+            					<p class="offer__title">Modern Furniture Collections</p>
+            					<p class="offer__caption">Starting from $500</p>
+            					<p class="offer__more">Read more <span class="icon-arrow-thin-right"></span></p>
+            				</div>
+            			</a>
+            			<a href="#" class="offer__item">
+            				<div class="offer__photo">
+            					<img src="img/offer/offer2.jpg" alt="offer" class="offer__img" />
+            				</div>
+            				<div class="offer__info">
+            					<p class="offer__title">Geometric Bookcase</p>
+            					<p class="offer__caption">Up to 20% discount</p>
+            					<p class="offer__more">Read more <span class="icon-arrow-thin-right"></span></p>
+            				</div>
+            			</a>
+            			<a href="#" class="offer__item">
+            				<div class="offer__photo">
+            					<img src="img/offer/offer3.jpg" alt="offer" class="offer__img" />
+            				</div>
+            				<div class="offer__info">
+            					<p class="offer__title">Minimal Sofa collections</p>
+            					<p class="offer__caption">Sale upto 40% discount</p>
+            					<p class="offer__more">Read more <span class="icon-arrow-thin-right"></span></p>
+            				</div>
+            			</a>
+            		</div>
+            	</div>
+            </div>
+
+            <!-- Trending-->
+            <section class="trending">
+                <div class="container">  
+                    <h2 class="trending__title h2">trending</h2>      
+                    <div class="trending__content">
+                        <div class="trending__cat category">
+                            <ul class="category__list category__list_inline">
+            					<li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline category__link_active" data-type="top">
+                                        Top Products
+                                    </a>
+                                </li>
+            					<li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline" data-type="new">New Arrivals</a>
+                                </li>
+            					<li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline" data-type="sale">Best Sellers</a>
+                                </li>		
+            				</ul>                
+                        </div>
+                        <div class="trending__products products">
+                            <!-- .products__item -->
+                            <div class="products__item card">
+                                <a class="card__photo" href="#">
+                                    <img src="img/products/product1.jpg" alt="photo-card" class="card__img">                            
+                                </a>
+                                <div class="card__info">
+                                    <p class="card__name">Chair</p> 
+                                    <a class="card__title" href="#">Minimal LCD chair</a>
+                                    <div class="card__options">
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-heart"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-cart1"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-loop2"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-eye"></span>
+                                        </a>
+                                    </div>
+                                    <div class="card__star-block">
+                                        <div class="card__price">
+                                            <div class="card__price-new">$180</div>
+                                            <div class="card__price-old">$250</div>
+                                        </div>
+                                        <ul class="card__review">
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                        </ul>
+                                    </div>                          
+                                </div>                    
+                                <div class="card__offer card__offer_green">Sale</div>
+                            </div>
+                            <!-- /// .products__item-->
+                        </div>
+                        <div class="trending__pagination">
+                            <a href="#" class="trending__pagination-link"><span></span></a>
+                            <a href="#" class="trending__pagination-link trending__pagination-link_active"><span></span></a>
+                        </div>
+                    </div>               
+                </div>
+            </section>
+
+            <!-- Special -->
+            <section class="special">
+            	<div class="container">
+            		<h2 class="special__title h2">SPECIAL OFFER</h2>
+            		<div class="special__content">
+                        <!-- .special__item -->
+            			<div class="special__item case">
+            				<div class="case__content">
+            					<h3 class="case__title">Living Room Furniture</h3>
+            					<p class="case__slogan">You don't have a chair. Are you ready for growth? Shop with us 40% discount!
+                                </p>
+            					<div class="case__price-block">
+            						<div class="case__price">
+            							<div class="case__price-new">$75</div>
+            							<div class="case__price-old">$150</div>
+            						</div>	
+            						<button class="case__btn button">SHOP NOW</button>
+            					</div>
+                                <ul id="time" class="case__timer">
+                                    <li class="case__time"><div class="case__day">00</div><span>days</span></li>
+                                    <li class="case__time"><div class="case__hrs">00</div><span>hrs</span></li>
+                                    <li class="case__time"><div class="case__min">00</div><span>min</span></li>
+                                    <li class="case__time"><div class="case__sec">00</div><span>sec</span></li>
+                                </ul>
+                                <div class="case__offer">40% off</div>
+            				</div>
+            			</div>
+                        <!-- ///.special__item -->
+
+                        <!-- .special__item -->
+                        <div class="special__item case">
+            				<div class="case__content">
+            					<h3 class="case__title">Modern chair</h3>
+            					<p class="case__slogan">Hot chairs of the modern era are now available in our stock.
+                                </p>
+            					<div class="case__price-block">
+            						<div class="case__price">
+            							<div class="case__price-new">$75</div>
+            							<div class="case__price-old">$150</div>
+            						</div>						
+            						<button class="case__btn button">SHOP NOW</button>
+            					</div>
+                                <ul id="time1" class="case__timer">
+                                    <li class="case__time"><div class="case__day">00</div><span>days</span></li>
+                                    <li class="case__time"><div class="case__hrs">00</div><span>hrs</span></li>
+                                    <li class="case__time"><div class="case__min">00</div><span>min</span></li>
+                                    <li class="case__time"><div class="case__sec">00</div><span>sec</span></li>
+                                </ul>
+                                <div class="case__offer">50% off</div>
+            				</div>
+            			</div>
+                        <!-- ///.special__item -->
+            		</div>
+            	</div>
+            </section>
+
+            <!-- Shop -->
+            <section class="shop">
+                <div class="container">
+                    <h2 class="shop__title h2">OUR PRODUCTS</h2>
+                    <div class="shop__content">
+                        <div class="shop__cat category">
+                            <ul class="category__list category__list_inline">
+            					<li class="category__item category__item_inline">
+                                    <a href="#" 
+                                        class="category__link category__link_inline category__link_active" 
+                                        data-type="all">
+                                        All Products
+                                    </a>
+                                </li>					
+            					<li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline" data-type="sale">Best Sellers</a>
+                                </li>
+                                <li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline" data-type="new">New Arrivals</a>
+                                </li>
+                                <li class="category__item category__item_inline">
+                                    <a href="#" class="category__link category__link_inline" data-type="offer">Todays Deals</a>
+                                </li>		
+            				</ul> 
+                        </div>
+                        <div class="shop__products products">
+                            <!-- .products__item -->
+                            <div class="products__item card">
+                                <a class="card__photo" href="#">
+                                    <img src="img/products/product1.jpg" alt="photo-card" class="card__img">                            
+                                </a>
+                                <div class="card__info">
+                                    <p class="card__name">Chair</p> 
+                                    <a class="card__title" href="#">Minimal LCD chair</a>
+                                    <div class="card__options">
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-heart"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-cart1"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-loop2"></span>
+                                        </a>
+                                        <a class="card__options-link" href="#">
+                                            <span class="card__icon icon-eye"></span>
+                                        </a>
+                                    </div>
+                                    <div class="card__star-block">
+                                        <div class="card__price">
+                                            <div class="card__price-new">$180</div>
+                                            <div class="card__price-old">$250</div>
+                                        </div>
+                                        <ul class="card__review">
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                            <li class="card__star icon-star-o"></li>
+                                        </ul>
+                                    </div>                          
+                                </div>                    
+                                <div class="card__offer card__offer_green">Sale</div>
+                            </div>
+                            <!-- /// .products__item-->
+                        </div>
+                        <!-- ///.shop__products -->
+                        <div class="shop__pagination pagination">
+                            <button class="pagination__button button button_light" type="button">Next page <span class="icon-arrow-thin-right"></span></button>
+                            <div class="pagination__info">
+                                <p class="pagination__text">Page</p>
+                                <input class="pagination__input" type="text" value="1">
+                                <p class="pagination__text">of <span class="pagination__sum">100</span></p>
+                                <button class="pagination__prev" type="button"><div class="icon-chevron-left"></div></button>
+                                <button class="pagination__next" type="button"><div class="icon-chevron-right"></div></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Review -->
+            <section class="review">
+            	<div class="container">
+            		<h2 class="review__title h2">What Our Customer Says</h2>
+            		<div class="review__content">
+            			<div class="review__slider">
+            				<div class="review__slides">
+            					<!-- review__item -->
+            					<div class="review__item">
+            						<div class="review__avatar">
+            							<img class="review__img" src="img/team/team_3.jpg" alt="review" />
+            						</div>
+            						<p class="review__text">
+            							I like Furniking.com and as compared to other company it's polices and
+            							customers support is very good easy to reach., also many time they
+            							unable to delivered. The ultricies are pregnant while the quis is
+            							suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist
+            							amet.							
+            						</p>
+            						<button class="review__more" type="button">Read more...</button>
+            						<p class="review__author">Angelina Joly</p>
+            						<p class="review__author-status">Co-founder</p>
+            					</div>
+            					<!-- ///review__item -->
+
+            					<!-- review__item -->
+            					<div class="review__item">
+            						<div class="review__avatar">
+            							<img class="review__img" src="img/team/team_2.jpg" alt="review" />
+            						</div>
+            						<p class="review__text">
+            							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nam.
+            							Repellat asperiores eius, beatae ex explicabo fugiat dolores qui libero
+            							sed esse quis molestiae iusto assumenda, velit similique porro ipsa. Ut
+            							omnis laudantium atque ipsam sunt saepe quis quas soluta quidem beatae
+            							nihil molestias quia minima repellat, culpa doloremque veniam. Impedit
+            							facere provident accusamus voluptate voluptas, temporibus enim rerum
+            							error.
+							
+            						</p>
+            						<button class="review__more" type="button">Read more...</button>
+            						<p class="review__author">Frank Astron</p>
+            						<p class="review__author-status">Co-founder</p>
+            					</div>
+            					<!-- ///review__item -->
+            					<!-- review__item -->
+            					<div class="review__item">
+            						<div class="review__avatar">
+            							<img class="review__img" src="img/team/team_1.jpg" alt="review" />
+            						</div>
+            						<p class="review__text">
+            							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+            							doloribus a et quo esse ipsum architecto, quaerat quod ad nihil
+            							doloremque accusantium! Aut debitis rem tempore quod voluptatem a.
+            							Dolore.														
+            						</p>
+            						<button class="review__more" type="button">Read more...</button>						
+            						<p class="review__author">Alex Guyier</p>
+            						<p class="review__author-status">Co-founder</p>
+            					</div>
+            					<!-- ///review__item -->
+            				</div>
+            				<button class="review__button review__button-prev">
+            					<span class="icon-chevron-left"></span>
+            				</button>
+            				<button class="review__button review__button-next">
+            					<span class="icon-chevron-right"></span>
+            				</button>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+
+            <!-- Articles -->
+            <section class="articles">
+                <div class="container">
+                    <h2 class="articles__title h2">Our Latest Articles</h2>
+                    <div class="articles__content">
+                        <!-- .articles__item  -->
+                        <div class="articles__item post">
+                            <div class="post__photo">
+                                <img src="img/post/post1.png" alt="post_alt" class="post__img">
+                            </div>
+                            <div class="post__content">
+                                <div class="post__info">
+                                    <div class="post__type"><span class="icon-tag"></span>Furniture</div>
+                                    <div class="post__date">23 September 2022</div>
+                                </div>
+                                <p class="post__title">Begineer guide buying minimal sofa</p>
+                                <a href="#" class="post__link">Read more</a>
+                            </div>
+                        </div> 
+                        <!-- ///.articles__item  -->
+
+                        <!-- .articles__item  -->
+                        <div class="articles__item post">
+                            <div class="post__photo">
+                                <img src="img/post/post2.png" alt="post_alt" class="post__img">
+                            </div>
+                            <div class="post__content">
+                                <div class="post__info">
+                                    <div class="post__type"><span class="icon-tag"></span>TABLE</div>
+                                    <div class="post__date">23 September 2022</div>
+                                </div>
+                                <p class="post__title">Buying best minimal computer table</p>
+                                <a href="#" class="post__link">Read more</a>
+                            </div>
+                        </div> 
+                        <!-- ///.articles__item  -->
+
+                        <!-- .articles__item  -->
+                        <div class="articles__item post">
+                            <div class="post__photo">
+                                <img src="img/post/post3.png" alt="post_alt" class="post__img">
+                            </div>
+                            <div class="post__content">
+                                <div class="post__info">
+                                    <div class="post__type"><span class="icon-tag"></span>Bench</div>
+                                    <div class="post__date">23 March 2022</div>
+                                </div>
+                                <p class="post__title">How to choose best modern bench</p>
+                                <a href="#" class="post__link">Read more</a>
+                            </div>
+                        </div> 
+                        <!-- ///.articles__item  -->
+
+                        <!-- .articles__item  -->
+                        <div class="articles__item post">
+                            <div class="post__photo">
+                                <img src="img/post/post4.png" alt="post_alt" class="post__img">
+                            </div>
+                            <div class="post__content">
+                                <div class="post__info">
+                                    <div class="post__type"><span class="icon-tag"></span>Chair</div>
+                                    <div class="post__date">21 March 2022</div>
+                                </div>
+                                <p class="post__title">Best Summer Outfit Style in this Country</p>
+                                <a href="#" class="post__link">Read more</a>
+                            </div>
+                        </div> 
+                        <!-- ///.articles__item  -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+        	<div class="footer__main">
+        		<div class="container">
+        			<div class="footer__content">
+        				<!-- .footer__item -->
+        				<div class="footer__item footer__item-main">
+        					<div class="footer__logo logo">
+        						<img class="logo__img" src="img/logo.svg" alt="logo" />
+        						<div class="logo__text">Furniking</div>
+        					</div>
+        					<p class="footer__text">
+        						Funking is the a popular Ecommerce site. Lorem ipsum dolor sit amet,
+        						consectetur adipiscing elit, sed do eiusmod tempor
+        					</p>
+                            <ul class="footer__social social">
+                                <li class="social__item">
+                                    <a href="#" class="social__link"><span class="icon-facebook"></span></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link"><span class="icon-twitter"></span></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link"><span class="icon-instagram"></span></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link"><span class="icon-pinterest-p"></span></a>
+                                </li>
+                            </ul>
+        				</div>
+        				<!-- ///.footer__item -->
+
+                        <!-- .footer__item -->
+        				<div class="footer__item">
+        					<nav class="footer__menu">
+                                <p class="footer__menu-title">Help</p>
+                                <a href="#" class="footer__menu-link">Privacy Policy</a>
+                                <a href="#" class="footer__menu-link">Shipping & Delivery</a>
+                                <a href="#" class="footer__menu-link">Refund Policy</a>
+                                <a href="#" class="footer__menu-link">Track Your  Order</a>
+                            </nav>                    
+        				</div>
+        				<!-- ///.footer__item -->
+                        <!-- .footer__item -->
+        				<div class="footer__item footer__item-store">
+        					<nav class="footer__menu ">
+                                <p class="footer__menu-title">Store</p>
+                                <a href="#" class="footer__menu-link">Furniture</a>
+                                <a href="#" class="footer__menu-link">Tabble</a>
+                                <a href="#" class="footer__menu-link">Sofa</a>
+                                <a href="#" class="footer__menu-link">Other </a>
+                            </nav>
+        				</div>
+        				<!-- ///.footer__item -->
+                        <!-- .footer__item -->
+        				<div class="footer__item">
+        					<nav class="footer__menu">
+                                <p class="footer__menu-title">Supports</p>
+                                <a href="#" class="footer__menu-link">Feedback</a>
+                                <a href="#" class="footer__menu-link">Contact us</a>
+                                <a href="#" class="footer__menu-link">Download app</a>
+                                <a href="#" class="footer__menu-link">Terms conditions</a>
+                            </nav>
+        				</div>
+        				<!-- ///.footer__item -->
+        			</div>
+        		</div>
+        	</div>
+            <div class="footer__bottom-line">
+                <div class="container">
+                    <div class="footer__content">                
+                        <p class="footer__text footer__text_min">© 2021 Funking - All rights reserved.</p>
+                        <nav class="footer__menu footer__menu_inline">
+                            <a href="#" class="footer__menu-link footer__menu-link_min">Privacy</a>
+                            <a href="#" class="footer__menu-link footer__menu-link_min">Security</a>
+                            <a href="#" class="footer__menu-link footer__menu-link_min">Terms</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        <script src="js/main.js"></script>
     </body>
 </html>

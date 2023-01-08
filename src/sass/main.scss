@@ -1,11 +1,29 @@
 @import 'base/reset';
 @import 'base/fonts';
 @import 'base/variables';
+@import 'base/global';
 
-h1{
-    font-family: "Roboto-Regular";
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;    
-    background-color: $main-color;
-}
+@import 'parts/header';
+@import 'parts/logo';
+@import 'parts/select';
+@import 'parts/menu';
+@import 'parts/category';
+@import 'parts/collections';
+@import 'parts/popup';
+@import 'parts/features';
+@import 'parts/offer';
+@import 'parts/trending';
+@import 'parts/card';
+@import 'parts/products';
+@import 'parts/special';
+@import 'parts/case';
+@import 'parts/shop';
+@import 'parts/pagination';
+@import 'parts/review';
+@import 'parts/articles';
+@import 'parts/post';
+@import 'parts/footer';
+@import 'parts/social';
+
+
+@import 'base/media';

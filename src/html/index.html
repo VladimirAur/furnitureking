@@ -4,12 +4,35 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/fonts.css" />
         <title>Document</title>
     </head>
     <body>
-        <h1>Hello 33 World</h1>
+        <!-- Header -->
+        @@include('header.html')      
+
+        <main>
+            <!-- Collections -->
+            @@include('collections.html')
+            <!-- Features -->
+            @@include('features.html')
+            <!-- Offer -->
+            @@include('offer.html')
+            <!-- Trending-->
+            @@include('trending.html')
+            <!-- Special -->
+            @@include('special.html')
+            <!-- Shop -->
+            @@include('shop.html')
+            <!-- Review -->
+            @@include('review.html')
+            <!-- Articles -->
+            @@include('articles.html')
+        </main>
+        <!-- Footer -->
+        @@include('footer.html')
+        
+        <script src="js/main.js"></script>
     </body>
 </html>

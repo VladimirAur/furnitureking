@@ -1,0 +1,116 @@
+.case {   
+    position: relative; 
+    background: right no-repeat url(../img/special/special1.png);
+    transition: all ease 0.3s; 
+    box-shadow: 2px 2px 10px #999898;   
+    &:last-child{
+        background:  right no-repeat url(../img/special/special2.png);
+        
+    }
+    
+    // .case__content
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 45%;       
+        height: 100%;
+        padding: 30px 0 30px 30px;
+        background-color: aliceblue;
+        box-sizing: border-box;
+    }
+
+    // .case__title
+    &__title {
+        margin: 0 0 11px 0;
+        font-family: $ms-sb;
+        font-size: 22px;
+        color: $grey-color;
+        
+        
+    }
+
+    // .case__slogan
+    &__slogan {
+        margin: 0 0 20px 0;
+        font-family: $ms-rg;
+        font-size: 12px;
+        line-height: 18px;
+        color: #757575;
+        
+    }
+
+    // .case__price-block
+    &__price-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    // .case__price-new
+    &__price-new {
+        display: inline-block;
+		font-family: $ms-bd;
+		font-size: 18px;
+		color: $main-color;
+    }
+
+    // .case__price-old
+    &__price-old {
+        display: inline-block;
+		font-family: $ms-sb;
+		font-size: 18px;
+		color: #cccccc;
+		text-decoration: line-through;
+    }
+
+    // .case__btn
+    &__btn {
+        font-size: 12px;
+    }
+
+    // .case__timer
+    &__timer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .case__time
+    &__time {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 40px;
+        height: 40px;        
+        font-family: $rb-md;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        border-radius: 50%;
+        background-color: $main-color;
+        span{           
+            font-family: $rb-rg;
+            font-size: 6px;
+            text-transform: uppercase;
+        }
+    }
+
+    // .case__offer
+    &__offer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70px;
+		padding: 0.4em;
+		font-family: $ms-sb;
+		font-size: 12px;
+		color: #ffffff;
+		text-align: center;
+		box-sizing: border-box;
+		border-radius: 0 0 0 5px;
+		text-transform: capitalize;
+        background-color: #00b7f1;
+    }
+}
