@@ -50,7 +50,7 @@ function addProduct(productWrapper, type) {
 			offer_text: 'sale',
 		},
 		{
-			img: 'img/products/product5.jpg',
+			img: 'img/product5.jpg',
 			alt: 'photo-card',
 			name: 'Chair',
 			title: 'Modern chairs',
@@ -196,7 +196,7 @@ function addProduct(productWrapper, type) {
 				}
 			});
 		} else {
-			for (let index = 0; index < 8; index++) {
+			for (let index = 0; index < 16; index++) {
 				itemsArr += createProduct(productArr[index]);
 			}
 		}

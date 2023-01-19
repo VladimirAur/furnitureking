@@ -310,6 +310,7 @@ a:hover {
 .header {
   position: relative;
   width: 100%;
+  background-color: #ffffff;
 }
 .header_fixed {
   position: fixed;
