@@ -39,11 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	if (document.querySelector('#time')) {
-		timer('#time', '2023-04-01');
-		timer('#time1', '2023-01-30T03:24:23');
+		timer('#time', '2024-04-01');
+		timer('#time1', '2024-01-30T03:24:23');
 	}
 	if (document.querySelector('#time1')) {
-		timer('#time1', '2023-01-30T03:24:23');
+		timer('#time1', '2024-01-30T03:24:23');
 	}
 
 	popup();
